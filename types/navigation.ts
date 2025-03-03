@@ -7,6 +7,11 @@ export type RootStackParamList = {
   ForgotPassword: undefined;
   VerifyOTP: undefined;
   Home: undefined;
+  Search: undefined;
+  Analytics: undefined;
+  History: undefined;
+  Profile: undefined;
+  AppLayout: undefined;
 };
 
 export type VerifyOTPScreenProps = {
