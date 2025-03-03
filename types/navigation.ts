@@ -6,6 +6,7 @@ export type RootStackParamList = {
   Register: undefined;
   ForgotPassword: undefined;
   VerifyOTP: undefined;
+  Home: undefined;
 };
 
 export type VerifyOTPScreenProps = {

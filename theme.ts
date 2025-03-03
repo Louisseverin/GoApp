@@ -1,8 +1,14 @@
 export const COLORS = {
-  primary: "#CCDB18",
-  background: "#0A0A0A",
-  card: "#1A1A1A",
+  primary: "#6D9773",
+  secondary: "#0C3B2E",
+  accent: "#B46617",
+  highlight: "#FFBA00",
+  background: "#0C3B2E",
+  card: "#1A4D3E",
   text: "#FFFFFF",
-  textSecondary: "#999999",
+  textSecondary: "#A0AEC0",
+  success: "#6D9773",
+  error: "#B46617",
+  border: "#1A4D3E",
   white: "#ffffff",
 } as const;

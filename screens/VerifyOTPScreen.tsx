@@ -45,7 +45,7 @@ export const VerifyOTPScreen: React.FC<VerifyOTPScreenProps> = ({
   const handleVerify = () => {
     if (value.length === 4) {
       console.log("OTP Verified:", value);
-      navigation.navigate("Register");
+      navigation.navigate("Home");
     }
   };
 
@@ -72,7 +72,7 @@ export const VerifyOTPScreen: React.FC<VerifyOTPScreenProps> = ({
           {...props}
           value={value}
           onChangeText={setValue}
-          cellCount={5}
+          cellCount={4}
           rootStyle={tw`mt-5 gap-5 justify-center `}
           keyboardType="number-pad"
           textContentType="oneTimeCode"
