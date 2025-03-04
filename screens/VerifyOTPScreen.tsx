@@ -45,7 +45,7 @@ export const VerifyOTPScreen: React.FC<VerifyOTPScreenProps> = ({
   const handleVerify = () => {
     if (value.length === 4) {
       console.log("OTP Verified:", value);
-      navigation.navigate("Home");
+      navigation.navigate("AppLayout");
     }
   };
 
